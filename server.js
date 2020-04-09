@@ -10,7 +10,7 @@ const movieRoute = require('./Routes/movie_apiRoute.js')
 dotenv.config();
 require('./db')
 require('./passport')
-const PORT=process.env.PORT || 5050
+const PORT=Number(process.env.PORT || 5050)
 
 //initilization
 const app = express();
