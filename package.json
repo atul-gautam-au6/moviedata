@@ -4,9 +4,9 @@
   "description": "",
   "main": "db.js",
   "scripts": {
-    "dev": "npx nodemon server",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev":"npx nodemon server",
+    "test":"echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
   },
   "author": "Atul kumar gautam",
   "license": "ISC",
